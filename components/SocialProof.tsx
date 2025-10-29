@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleLogo, MicrosoftLogo, AmazonLogo, AppleLogo, MetaLogo, NetflixLogo, TeslaLogo, SamsungLogo } from './Icons';
+import { GoogleLogo, MicrosoftLogo, AmazonLogo, AppleLogo, MetaLogo, NetflixLogo, TeslaLogo } from './Icons';
 
 const SocialProof: React.FC = () => {
   return (
@@ -16,7 +16,6 @@ const SocialProof: React.FC = () => {
           <MetaLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
           <NetflixLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
           <TeslaLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
-          <SamsungLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
         </div>
       </div>
     </section>

@@ -1,5 +1,4 @@
 import React from 'react';
-
 export const LogoIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
     <path d="M12.75 2.75a.75.75 0 00-1.5 0V5.5h-2a.75.75 0 000 1.5h2V9.5h-2a.75.75 0 000 1.5h2V13.5h-2a.75.75 0 000 1.5h2V17.5h-2a.75.75 0 000 1.5h2v2.75a.75.75 0 001.5 0V18.5h2.25a.75.75 0 000-1.5H12.75V14.5h2.25a.75.75 0 000-1.5H12.75V10.5h2.25a.75.75 0 000-1.5H12.75V6.5h2.25a.75.75 0 000-1.5H12.75V2.75z" />
@@ -70,13 +69,7 @@ export const QuantumLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg viewBox="0 0 120 25" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M14.6 24.1C6.4 24.1 0 18.7 0 12S6.4 0 14.6 0c8.2 0 14.6 5.4 14.6 12s-6.4 12.1-14.6 12.1zm0-4.5c5.4 0 9.4-3.1 9.4-7.6s-4-7.6-9.4-7.6-9.4 3.1-9.4 7.6 4 7.6 9.4 7.6zM32.5 23.5V0h5.2v23.5h-5.2zM45.6 24.1v-23h5.3l10.3 14.2V1.1h5.2v23h-5.3L50.8 9.9v14.2h-5.2zM81.5 24.1v-19h-9.3V1.1h23.7v4h-9.2v19h-5.2zM102.7 24.1c-4.9 0-8.1-1.6-9.8-4.8l4.6-2.6c.9 2.1 2.5 3.2 5.3 3.2 2.9 0 4.8-1.4 4.8-3.5 0-2.3-1.6-3.2-5.4-4.2-5.2-1.4-8.3-3.6-8.3-8.2 0-4.1 3.5-7.2 9.1-7.2 4.4 0 7.3 1.5 9 4.3l-4.5 2.8c-.8-1.7-2.1-2.5-4.5-2.5-2.4 0-3.9 1.2-3.9 3.2 0 2.2 1.4 3 5.4 4.1 5.4 1.4 8.3 3.8 8.3 8.3 0 4.4-3.7 7.7-9.5 7.7z" fill="currentColor"/></svg>
 );
 
-export const StellarLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg viewBox="0 0 120 25" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M13.3 4.5h-5L5.7 18l-2.6-13.5H.5L5 24h3.6l2.4-12.7L13.4 24h3.6l4.5-19.5h-2.6L16.3 18l-3-13.5zM38.8 24.1c-8.2 0-14.6-5.4-14.6-12S30.6 0 38.8 0c8.2 0 14.6 5.4 14.6 12s-6.4 12.1-14.6 12.1zm0-4.5c5.4 0 9.4-3.1 9.4-7.6s-4-7.6-9.4-7.6-9.4 3.1-9.4 7.6 4 7.6 9.4 7.6zM61 23.5V0h5.2v19h10.8v4.5H61zM91.8 4.5h-5.4L80.5 15.6V4.5h-5.2v19.6h5.2l11.2-11.4v11.4h5.2V4.5h-5.1zM107.4 23.5V0h5.2v23.5h-5.2z" fill="currentColor"/></svg>
-);
 
-export const StellarLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg viewBox="0 0 120 25" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M13.3 4.5h-5L5.7 18l-2.6-13.5H.5L5 24h3.6l2.4-12.7L13.4 24h3.6l4.5-19.5h-2.6L16.3 18l-3-13.5zM38.8 24.1c-8.2 0-14.6-5.4-14.6-12S30.6 0 38.8 0c8.2 0 14.6 5.4 14.6 12s-6.4 12.1-14.6 12.1zm0-4.5c5.4 0 9.4-3.1 9.4-7.6s-4-7.6-9.4-7.6-9.4 3.1-9.4 7.6 4 7.6 9.4 7.6zM61 23.5V0h5.2v19h10.8v4.5H61zM91.8 4.5h-5.4L80.5 15.6V4.5h-5.2v19.6h5.2l11.2-11.4v11.4h5.2V4.5h-5.1zM107.4 23.5V0h5.2v23.5h-5.2z" fill="currentColor"/></svg>
-);
 
 export const GoogleLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
@@ -123,11 +116,7 @@ export const TeslaLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   </svg>
 );
 
-export const SamsungLogo: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" {...props}>
-    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.5 17.5h-2.5v-11h2.5v11zm5 0h-2.5v-11h2.5v11zm-2.5-14c-1.381 0-2.5 1.119-2.5 2.5s1.119 2.5 2.5 2.5 2.5-1.119 2.5-2.5-1.119-2.5-2.5-2.5z"/>
-  </svg>
-);
+
 
 export const QuoteIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" {...props}>
