@@ -4,19 +4,19 @@ import { PlusIcon, MinusIcon } from './Icons';
 const faqData = [
   {
     question: "Quanto tempo leva para implementar a automação?",
-    answer: "A implementação inicial pode ser feita em menos de duas semanas. Nossos especialistas trabalham com sua equipe para mapear processos e configurar os fluxos, garantindo uma transição suave e resultados rápidos."
+    answer: "Nossa meta é agilidade. A implementação inicial pode ser concluída em menos de duas semanas. Nossos especialistas mergulham nos seus processos, configuram tudo e garantem uma transição tão suave que você mal perceberá, apenas os resultados rápidos."
   },
   {
     question: "Meus dados estarão seguros?",
-    answer: "Absolutamente. A segurança é nossa prioridade máxima. Utilizamos criptografia de ponta-a-ponta, seguimos as melhores práticas de segurança do mercado e somos totalmente conformes com a LGPD."
+    answer: "Absolutamente! A segurança dos seus dados é a nossa obsessão. Utilizamos criptografia de ponta-a-ponta, seguimos rigorosamente as melhores práticas globais e somos 100% conformes com a LGPD. Seus dados estão em um cofre digital."
   },
   {
     question: "Preciso de conhecimento técnico para usar a plataforma?",
-    answer: "Não. Nossa plataforma é projetada para ser intuitiva. Você terá um dashboard claro para monitorar tudo, e nossa equipe cuidará de toda a configuração e manutenção dos fluxos de automação."
+    answer: "De forma alguma! Nossa plataforma foi desenhada para ser incrivelmente intuitiva. Você terá um dashboard claro para acompanhar tudo, e o melhor: nossa equipe de especialistas cuida de toda a configuração, manutenção e otimização dos seus fluxos de automação. Você foca no negócio, nós cuidamos da tecnologia."
   },
   {
     question: "A automação funciona com os sistemas que eu já uso?",
-    answer: "Sim. Nossa plataforma possui integrações nativas com centenas de ferramentas populares (CRMs, ERPs, etc.) e uma API flexível para conectar com sistemas customizados."
+    answer: "Com certeza! Nossa plataforma é uma verdadeira camaleoa. Possuímos integrações nativas com centenas de ferramentas populares (CRMs, ERPs, etc.) e uma API flexível que nos permite conectar com praticamente qualquer sistema customizado que você já utilize. Sem dores de cabeça na compatibilidade."
   }
 ];
 
@@ -56,8 +56,8 @@ const FAQ: React.FC = () => {
     <section className="py-20 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-blue-50">
         <div className="mx-auto max-w-7xl">
             <div className="text-center">
-                <h2 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">Suas Dúvidas, Nossas Respostas.</h2>
-                <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">Tudo o que você precisa saber para iniciar sua jornada de automação com confiança.</p>
+                <h2 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">Perguntas Frequentes: Clareza para Sua Decisão.</h2>
+                <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">Entenda cada detalhe e sinta-se totalmente seguro para dar o próximo passo rumo à automação inteligente do seu negócio.</p>
             </div>
             <dl className="mt-16 space-y-6 bg-white border border-slate-200 rounded-3xl p-8 shadow-lg">
                 {faqData.map((item, index) => (

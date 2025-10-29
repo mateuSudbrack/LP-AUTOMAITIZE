@@ -7,9 +7,9 @@ type Department = 'sales' | 'finance' | 'ops';
 const useCases: Record<Department, { title: string; challenge: string; solution: string; result: string; workflow: React.ReactNode; }> = {
   sales: {
     title: 'Acabe com a “Planilha de Leads”',
-    challenge: 'Leads chegam por e-mail e formulários, mas se perdem em planilhas complexas. A equipe perde tempo copiando e colando dados em vez de ligar para os clientes.',
-    solution: 'Nossa IA centraliza todos os leads automaticamente. Ela lê os e-mails e formulários, extrai as informações de contato, organiza tudo em uma única planilha inteligente e notifica o vendedor responsável instantaneamente.',
-    result: 'Nenhum lead esquecido. Aumento de 40% nas respostas em menos de 1 hora.',
+    challenge: 'Seus leads chegam por e-mail e formulários, mas acabam em um limbo de planilhas complexas. Sua equipe de vendas gasta um tempo precioso copiando e colando dados, em vez de focar no que realmente importa: converter esses leads em clientes.',
+    solution: 'Nossa IA atua como um assistente incansável: ela centraliza todos os leads automaticamente, lê e-mails e formulários, extrai informações de contato, organiza tudo em uma planilha inteligente e notifica o vendedor responsável instantaneamente. Zero esforço manual.',
+    result: 'Nenhum lead será esquecido. Aumento de 40% nas respostas em menos de 1 hora, transformando oportunidades perdidas em vendas concretas.',
     workflow: (
       <div className="flex items-center justify-center space-x-2 sm:space-x-4">
         <div className="flex flex-col items-center gap-1">
@@ -36,9 +36,9 @@ const useCases: Record<Department, { title: string; challenge: string; solution:
   },
   finance: {
     title: 'Conciliação Financeira sem Erros',
-    challenge: 'Todo mês, é uma maratona para juntar extratos bancários, PDFs de notas fiscais e planilhas de despesas. O risco de erro na digitação é enorme.',
-    solution: 'Envie os arquivos para a IA (extratos, notas, etc.). Ela lê os documentos, extrai os valores, datas e fornecedores, e preenche sua planilha de conciliação ou fluxo de caixa de forma automática e sem erros.',
-    result: 'Fechamento financeiro 5x mais rápido e com 100% de precisão nos dados.',
+    challenge: 'Todo mês, a conciliação financeira se torna uma maratona exaustiva. Juntar extratos bancários, PDFs de notas fiscais e planilhas de despesas manualmente abre margem para erros caros e perda de tempo valioso.',
+    solution: 'Basta enviar seus documentos (extratos, notas, etc.) para a IA. Ela lê, extrai valores, datas e fornecedores, e preenche sua planilha de conciliação ou fluxo de caixa de forma 100% automática e à prova de erros. Sua paz de espírito financeira garantida.',
+    result: 'Fechamento financeiro 5x mais rápido, com 100% de precisão nos dados e total conformidade. Mais tempo para análise estratégica, menos para retrabalho.',
     workflow: (
         <div className="flex items-center justify-center space-x-2 sm:space-x-4">
             <div className="flex flex-col items-center gap-1">
@@ -65,9 +65,9 @@ const useCases: Record<Department, { title: string; challenge: string; solution:
   },
   ops: {
     title: 'Onboarding de Clientes Padronizado',
-    challenge: 'Quando um novo cliente entra, é um caos de e-mails e checklists manuais. Tarefas são esquecidas, e a primeira impressão do cliente fica comprometida.',
-    solution: 'A partir de um simples e-mail de “venda fechada”, a IA inicia o processo. Ela cria a pasta do cliente, envia o e-mail de boas-vindas com um template padrão e cria as tarefas iniciais na sua planilha de projetos.',
-    result: 'Processo de onboarding padronizado e sem falhas. Clientes mais satisfeitos desde o primeiro dia.',
+    challenge: 'A chegada de um novo cliente deveria ser motivo de celebração, mas muitas vezes se transforma em um caos de e-mails e checklists manuais. Tarefas são esquecidas, a comunicação falha e a primeira impressão do cliente, tão crucial, fica seriamente comprometida.',
+    solution: 'Com um simples e-mail de “venda fechada”, nossa IA orquestra todo o processo. Ela cria automaticamente a pasta do cliente, envia e-mails de boas-vindas personalizados e gera todas as tarefas iniciais na sua ferramenta de gestão de projetos. Tudo padronizado e sem falhas.',
+    result: 'Onboarding impecável e sem falhas. Clientes encantados desde o primeiro contato, construindo uma relação de confiança e lealdade duradoura.',
     workflow: (
         <div className="flex items-center justify-center space-x-2 sm:space-x-4">
             <div className="flex flex-col items-center gap-1">
@@ -117,10 +117,10 @@ const UseCases: React.FC = () => {
     <section className="py-20 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-blue-50">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
-          Casos de Uso Reais. Resultados Reais.
+          Problemas Reais de Negócio. Soluções Inteligentes com IA.
         </h2>
         <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">
-          Descubra como a Automa transforma desafios complexos em soluções simples e eficazes para sua empresa.
+          Chega de perder tempo e dinheiro com processos ineficientes. Veja como a Automação Inteligente resolve os desafios mais urgentes da sua empresa, entregando resultados que você pode medir.
         </p>
       </div>
       

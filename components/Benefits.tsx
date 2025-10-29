@@ -5,22 +5,22 @@ const benefits = [
   {
     icon: EfficiencyIcon,
     title: 'Eficiência Máxima',
-    description: 'Reduza em até 80% o tempo gasto em tarefas manuais e foque sua equipe em atividades que geram receita.'
+    description: 'Libere sua equipe de até 80% das tarefas manuais repetitivas. Direcione o foco e a energia para o que realmente impulsiona sua receita e inovação.'
   },
   {
     icon: ShieldIcon,
     title: 'Redução de Erros',
-    description: 'Zere os erros de digitação em conciliações e relatórios. Garanta dados 100% confiáveis para suas decisões.'
+    description: 'Elimine de vez os erros humanos em conciliações e relatórios. Tenha a certeza de dados 100% precisos para decisões estratégicas e seguras.'
   },
   {
     icon: GrowthIcon,
     title: 'Escalabilidade Inteligente',
-    description: 'Escale suas vendas e operações sem aumentar a equipe na mesma proporção. Faça mais com o time que você já tem.'
+    description: 'Expanda suas vendas e operações sem a necessidade de contratar mais. Sua equipe atual fará muito mais, com a inteligência da automação ao seu lado.'
   },
   {
     icon: DataIcon,
     title: 'Decisões Baseadas em Dados',
-    description: 'Transforme dados brutos em inteligência de negócio. Tenha dashboards claros para decisões rápidas e assertivas.'
+    description: 'Converta dados complexos em insights claros e acionáveis. Tenha dashboards intuitivos que guiam suas decisões para um futuro mais lucrativo.'
   }
 ];
 
@@ -30,10 +30,10 @@ const Benefits: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
-            Vantagens Incomparáveis. Crescimento Sem Limites.
+            Resultados Reais que Transformam Seu Negócio.
           </h2>
           <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">
-            Descubra como a Automa impulsiona sua empresa, liberando sua equipe para focar no que realmente importa.
+            Pare de sonhar com o crescimento e comece a vivê-lo. Veja como a Automação Inteligente da Automa libera o potencial máximo da sua equipe e do seu negócio.
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

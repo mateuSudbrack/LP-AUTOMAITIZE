@@ -3,13 +3,13 @@ import { QuoteIcon, InnovatechLogo, NexusLogo } from './Icons';
 
 const testimonials = [
   {
-    quote: "A automação de relatórios financeiros nos economizou 40 horas por mês. O ROI foi quase imediato. É uma ferramenta indispensável para nossa operação.",
+    quote: "Antes da Automa, perdíamos 40 horas mensais em relatórios financeiros. Agora, com a automação, o ROI foi instantâneo. É mais que uma ferramenta, é um parceiro estratégico que nos dá tempo para pensar no futuro.",
     name: "Juliana Silva",
     title: "CFO, Innovatech",
     logo: InnovatechLogo,
   },
   {
-    quote: "Conectamos nosso CRM e ERP em questão de horas. O processo de qualificação de leads agora é 90% mais rápido e nossos vendedores podem focar em fechar negócios.",
+    quote: "A integração do nosso CRM e ERP com a Automa foi surpreendentemente rápida. Nossos vendedores, antes sobrecarregados, agora qualificam leads 90% mais rápido e dedicam seu tempo a fechar negócios, não a tarefas manuais. O impacto nas vendas é visível.",
     name: "Ricardo Mendes",
     title: "Diretor de Vendas, Nexus Corp",
     logo: NexusLogo,
@@ -21,10 +21,10 @@ const Testimonials: React.FC = () => {
     <section className="py-20 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-slate-50">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
-          Quem já Transformou com a Automa.
+          A Voz do Sucesso: Empresários que Já Sentem a Diferença.
         </h2>
         <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">
-          Histórias de sucesso de empresas que alcançaram novos patamares de eficiência e crescimento.
+          Não acredite apenas em nós. Veja o que líderes de mercado estão dizendo sobre como a Automação Inteligente da Automa revolucionou suas operações e resultados.
         </p>
       </div>
       <div className="mt-16 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">

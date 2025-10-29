@@ -15,10 +15,10 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-          Desbloqueie o Potencial da Automação com IA
+          Sua Empresa Merece Mais: Liberte o Poder da Automação Inteligente
         </h1>
         <p className="mt-6 text-lg leading-8 text-slate-200">
-          Transforme seu negócio com soluções inteligentes que otimizam processos, aumentam a eficiência e impulsionam o crescimento.
+          Sua equipe merece focar no que realmente importa. Liberte-a das tarefas manuais e repetitivas, e veja a inteligência artificial impulsionar seu crescimento e inovação.
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <a

@@ -4,9 +4,9 @@ import { CheckCircleIcon } from './Icons';
 const includedFeatures = [
   'Integração completa com seus sistemas (CRM, ERP, etc.)',
   'Desenvolvimento de fluxos de automação ilimitados',
-  'Dashboard de KPIs em tempo real',
-  'Suporte técnico e gerente de conta dedicado',
-  'Segurança de nível empresarial e conformidade com a LGPD',
+  'Dashboards de KPIs em tempo real, para decisões rápidas e inteligentes.',
+  'Suporte técnico especializado e um gerente de conta dedicado, sempre à sua disposição.',
+  'Segurança de nível empresarial e total conformidade com a LGPD, para sua tranquilidade.',
 ];
 
 const Pricing: React.FC = () => {
@@ -15,10 +15,10 @@ const Pricing: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
-            Investimento Inteligente. Retorno Garantido.
+            Invista no Futuro. Colha Resultados Exponenciais.
           </h2>
           <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">
-            Nossa abordagem personalizada garante que você pague apenas pelo valor que realmente geramos para o seu negócio.
+            Chega de custos ocultos ou investimentos sem clareza. Com a Automa, você investe em uma parceria estratégica onde o valor gerado para o seu negócio é sempre superior ao seu investimento.
           </p>
         </div>
         <div className="mt-16 max-w-3xl mx-auto bg-white border border-slate-200 rounded-3xl p-8 shadow-2xl">
@@ -32,8 +32,8 @@ const Pricing: React.FC = () => {
                 ))}
             </ul>
             <div className="mt-10 text-center bg-blue-50 p-8 rounded-2xl border border-blue-200">
-                <p className="font-bold text-blue-800 text-xl">Seu preço é baseado no ROI. Vamos conversar?</p>
-                <p className="text-base text-blue-600 mt-2">Nosso compromisso: o valor economizado será sempre superior ao seu investimento.</p>
+                <p className="font-bold text-blue-800 text-xl">Seu investimento é diretamente ligado ao ROI que geramos. Pronto para ver o impacto real?</p>
+                <p className="text-base text-blue-600 mt-2">Nosso compromisso é simples: o valor que você economiza e ganha será *sempre* maior que o seu investimento. Garantido.</p>
             </div>
         </div>
       </div>
