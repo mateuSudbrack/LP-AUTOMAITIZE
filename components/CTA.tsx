@@ -8,7 +8,7 @@ const CTA: React.FC = () => {
           Cansado de Ver Sua Equipe Perdendo Tempo com o Básico?
         </h2>
         <p className="mt-6 text-xl max-w-3xl mx-auto opacity-90">
-          Imagine sua equipe focada no que realmente importa: criar, inovar e fechar mais negócios. Chega de desperdiçar talentos em planilhas e processos manuais. A inteligência artificial está aqui para transformar essa realidade.
+          Sua equipe gasta tempo demais com tarefas repetitivas e burocracia? Libere o potencial máximo do seu time para focar em crescimento e inovação, com a inteligência artificial trabalhando por você.
         </p>
         <div className="mt-10">
           <button className="bg-white text-blue-600 font-bold py-4 px-10 rounded-full hover:bg-blue-50 hover:text-blue-700 transition-all duration-300 shadow-lg hover:shadow-white/40 transform hover:-translate-y-1 text-lg">
