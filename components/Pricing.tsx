@@ -18,7 +18,7 @@ const Pricing: React.FC = () => {
             Invista no Futuro. Colha Resultados Exponenciais.
           </h2>
           <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">
-            Chega de custos ocultos ou investimentos sem clareza. Com a Automa, você investe em uma parceria estratégica onde o valor gerado para o seu negócio é sempre superior ao seu investimento.
+            Chega de custos ocultos ou investimentos sem clareza. Com a Automaitize, você investe em uma parceria estratégica onde o valor gerado para o seu negócio é sempre superior ao seu investimento.
           </p>
         </div>
         <div className="mt-16 max-w-3xl mx-auto bg-white border border-slate-200 rounded-3xl p-8 shadow-2xl">
@@ -32,7 +32,7 @@ const Pricing: React.FC = () => {
                 ))}
             </ul>
             <div className="mt-10 text-center bg-blue-50 p-8 rounded-2xl border border-blue-200">
-                <p className="font-bold text-blue-800 text-xl">Seu investimento é diretamente ligado ao ROI que geramos. Pronto para ver o impacto real?</p>
+                <p className="font-bold text-blue-800 text-xl">Seu investimento é diretamente ligado ao ROI que geramos. Vamos conversar sobre o seu impacto real?</p>
                 <p className="text-base text-blue-600 mt-2">Nosso compromisso é simples: o valor que você economiza e ganha será *sempre* maior que o seu investimento. Garantido.</p>
             </div>
         </div>

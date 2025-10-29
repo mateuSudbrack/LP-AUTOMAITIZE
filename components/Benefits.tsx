@@ -33,7 +33,7 @@ const Benefits: React.FC = () => {
             Resultados Reais que Transformam Seu Negócio.
           </h2>
           <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">
-            Pare de sonhar com o crescimento e comece a vivê-lo. Veja como a Automação Inteligente da Automa libera o potencial máximo da sua equipe e do seu negócio.
+            Pare de sonhar com o crescimento e comece a vivê-lo. Veja como a Automação Inteligente da Automaitize libera o potencial máximo da sua equipe e do seu negócio.
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
