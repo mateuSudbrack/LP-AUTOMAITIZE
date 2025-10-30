@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { LogoIcon, TwitterIcon, LinkedinIcon, FacebookIcon, WhatsappIcon } from './Icons';
+import { LogoIcon } from './Icons';
 
 const Footer: React.FC = () => {
   const whatsappNumber = "5561995196501"; // Seu número de WhatsApp
@@ -20,10 +20,10 @@ const Footer: React.FC = () => {
             <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">Produto</a>
             <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">Preços</a>
             <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">Contato</a>
-            <a href={whatsappLink} aria-label="WhatsApp" className="text-slate-400 hover:text-green-500 transition-colors"><WhatsappIcon className="h-6 w-6" /></a> {/* Novo link do WhatsApp */}
-            <a href="#" aria-label="Twitter" className="text-slate-400 hover:text-blue-500 transition-colors"><TwitterIcon className="h-6 w-6" /></a>
-            <a href="#" aria-label="LinkedIn" className="text-slate-400 hover:text-blue-700 transition-colors"><LinkedinIcon className="h-6 w-6" /></a>
-            <a href="#" aria-label="Facebook" className="text-slate-400 hover:text-blue-800 transition-colors"><FacebookIcon className="h-6 w-6" /></a>
+            <a href={whatsappLink} aria-label="WhatsApp" className="text-slate-400 hover:text-green-500 transition-colors"><img src="https://www.freepnglogos.com/uploads/whatsapp-logo-png-hd-2.png" alt="WhatsApp" className="h-6 w-6" /></a> {/* Novo link do WhatsApp */}
+            <a href="#" aria-label="Twitter" className="text-slate-400 hover:text-blue-500 transition-colors"><img src="https://www.freepnglogos.com/uploads/twitter-x-logo-png-1.png" alt="Twitter" className="h-6 w-6" /></a>
+            <a href="#" aria-label="LinkedIn" className="text-slate-400 hover:text-blue-700 transition-colors"><img src="https://cdnlogo.com/logos/l/10/linkedin.png" alt="LinkedIn" className="h-6 w-6" /></a>
+            <a href="#" aria-label="Facebook" className="text-slate-400 hover:text-blue-800 transition-colors"><img src="https://www.freepnglogos.com/uploads/facebook-logo-png/facebook-logo-png-transparent-background-1.png" alt="Facebook" className="h-6 w-6" /></a>
         </div>
       </div>
     </footer>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleLogo, MicrosoftLogo, AmazonLogo, AppleLogo, MetaLogo, NetflixLogo, TeslaLogo } from './Icons';
+
 
 const SocialProof: React.FC = () => {
   return (
@@ -9,13 +9,13 @@ const SocialProof: React.FC = () => {
           Empresas que já usam
         </p>
         <div className="mt-10 flex justify-center items-center gap-8 sm:gap-12 flex-wrap">
-          <GoogleLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
-          <MicrosoftLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
-          <AmazonLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
-          <AppleLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
-          <MetaLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
-          <NetflixLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
-          <TeslaLogo className="h-12 text-slate-400 hover:text-white transition-colors" />
+          <img src="https://pngimg.com/uploads/google/google_PNG19636.png" alt="Google" className="h-12" />
+          <img src="https://pngimg.com/uploads/microsoft/microsoft_PNG13.png" alt="Microsoft" className="h-12" />
+          <img src="https://www.freepnglogos.com/uploads/amazon-png-logo-vector-1.png" alt="Amazon" className="h-12" />
+          <img src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-transparent-background-1.png" alt="Apple" className="h-12" />
+          <img src="https://pngimg.com/uploads/meta/meta_PNG5.png" alt="Meta" className="h-12" />
+          <img src="https://pngimg.com/uploads/netflix/netflix_PNG15.png" alt="Netflix" className="h-12" />
+          <img src="https://pngimg.com/uploads/tesla_logo/tesla_logo_PNG21.png" alt="Tesla" className="h-12" />
         </div>
       </div>
     </section>
