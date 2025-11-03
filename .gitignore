@@ -1,5 +1,5 @@
-
 .playwright-mcp/
 .env
 dist/
 node_modules/
+.gemini/
