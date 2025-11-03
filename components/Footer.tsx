@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Automaitize.`;
 
   return (
-    <footer className="py-12 border-t border-slate-200 px-4 sm:px-6 lg:px-8 bg-white border-4 border-red-500">
+    <footer className="py-12 border-t border-slate-200 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-3">
           <LogoIcon className="h-8 w-8 text-blue-600" />
