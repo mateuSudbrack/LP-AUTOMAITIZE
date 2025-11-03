@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">Produto</a>
             <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">Preços</a>
             <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors font-medium">Contato</a>
-            <a href={whatsappLink} aria-label="WhatsApp" className="text-slate-400 hover:text-green-500 transition-colors"><img src="/whatsapp.svg" alt="WhatsApp" className="h-6 w-6" /></a> {/* Novo link do WhatsApp */}
+            <a href={whatsappLink} aria-label="WhatsApp" className="text-slate-400 hover:text-green-500 transition-colors"><img src="/whatsapp.svg" alt="WhatsApp" className="h-8 w-8" /></a> {/* Novo link do WhatsApp */}
 
 
 
