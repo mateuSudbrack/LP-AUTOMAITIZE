@@ -2,10 +2,11 @@
 import React from 'react';
 import { LogoIcon } from './Icons';
 
-const Footer: React.FC = () => {
-  const whatsappNumber = "5561995196501"; // Seu número de WhatsApp
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Automaitize.`;
+interface FooterProps {
+  whatsappLink: string;
+}
 
+const Footer: React.FC<FooterProps> = ({ whatsappLink }) => {
   return (
     <footer className="py-12 border-t border-slate-200 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
