@@ -13,21 +13,6 @@ import Footer from './components/Footer';
 import AnimatedSection from './components/AnimatedSection';
 import CadastroParceiro from './pages/CadastroParceiro';
 
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import SocialProof from './components/SocialProof';
-import UseCases from './components/UseCases';
-import Benefits from './components/Benefits';
-import Testimonials from './components/Testimonials';
-import Pricing from './components/Pricing';
-import FAQ from './components/FAQ';
-import CTA from './components/CTA';
-import Footer from './components/Footer';
-import AnimatedSection from './components/AnimatedSection';
-import CadastroParceiro from './pages/CadastroParceiro';
-
 const MainPage: React.FC = () => {
   return (
     <>
@@ -75,6 +60,17 @@ const App: React.FC = () => {
           <Route path="/cadastroparceiro" element={<CadastroParceiro />} />
         </Routes>
         <Footer whatsappLink={whatsappLink} />
+
+        {/* Botão flutuante do WhatsApp */}
+        <a
+          href={whatsappLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors duration-300 z-50 flex items-center justify-center"
+          aria-label="Fale conosco pelo WhatsApp"
+        >
+          <img src="/whatsapp.svg" alt="WhatsApp" className="h-8 w-8" />
+        </a>
       </div>
     </Router>
   );
