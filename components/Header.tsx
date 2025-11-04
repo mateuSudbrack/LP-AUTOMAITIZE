@@ -19,7 +19,8 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/automaitize-logo.svg" alt="Automaitize SVG Logo" className="w-32 h-auto object-contain" />
+            <LogoIcon className="h-8 w-8 text-blue-600" />
+            <span className="text-xl font-bold text-slate-800">Automaitize</span>
           </div>
           <button className="bg-slate-900 text-white font-semibold py-2 px-5 rounded-lg hover:bg-slate-800 transition-colors duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-px">
             Agendar Consultoria Gratuita
